@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8th March"
+            android:textColor="#0000ff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:text="Launch and Applications Open"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="31st March"
+            android:textColor="#0022ff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0022ff"
+            android:text="Applications Deadline"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5th April"
+            android:textColor="#0044ff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0044ff"
+            android:text="Shortlisting Teams\n(50 teams)"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2nd Week April"
+            android:textColor="#0066ff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0066ff"
+            android:text="2 Day Ideation Workshop\n(Phase 2 Selection)"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="April - May"
+            android:textColor="#0088ff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0088ff"
+            android:text="Mentor Sessions and\nAction Plan Development"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="June - July"
+            android:textColor="#00aaff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00aaff"
+            android:text="Implementation"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Week August"
+            android:textColor="#00ccff"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00ccff"
+            android:text="Showcase and Impact\nAssessment"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:padding="3dip" />
+    </TableRow>
+    </TableLayout>
+</ScrollView>
